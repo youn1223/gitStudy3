@@ -35,12 +35,15 @@ public class AlbumInsertController {
 		
 		ModelAndView mav = new ModelAndView();
 		
-		// 삭제
+		// kim 팀원이삭제
 		
+		// kim 팀원이 일부 추가함
+		// kim 브랜치에서 팀원이 일부 수정함 
+		// kim 팀원이 일부 추가함
+		// kim 팀원이 일부 추가함
 		// 일부 추가함
-		// 일부 추가함
-		// 일부 추가함
-		// 일부 추가함
+		// kim 브랜치에서 추가함 
+		
 		
 		int cnt = -1;
 		cnt = albumDao.insertAlbum(album);
