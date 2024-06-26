@@ -35,10 +35,12 @@ public class AlbumInsertController {
 		
 		ModelAndView mav = new ModelAndView();
 		
-		if(result.hasErrors()) {
-			mav.setViewName(getPage);
-			return mav;
-		}
+		// 삭제
+		
+		// 일부 추가함
+		// 일부 추가함
+		// 일부 추가함
+		// 일부 추가함
 		
 		int cnt = -1;
 		cnt = albumDao.insertAlbum(album);
